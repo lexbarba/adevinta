@@ -42,6 +42,6 @@ BarbasSearchBar.displayName = 'BarbasSearchBar'
 BarbasSearchBar.propTypes = {
   onQuerySubmit: PropTypes.function
 }
-// BarbasSearchBar.defaultProps = {}
+//  BarbasSearchBar.defaultProps = {}
 
 export default BarbasSearchBar
