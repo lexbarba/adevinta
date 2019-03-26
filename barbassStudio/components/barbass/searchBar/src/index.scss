@@ -8,7 +8,7 @@ $dark-blue: #7699C5;
 
 // $c-primary: $dark-grey;
 
-
+@import '../themes/barbass.scss';
 @import '~@s-ui/react-atom-input/lib/index';
 @import '~@schibstedspain/sui-theme/lib/index';
 @import '~@schibstedspain/sui-atom-button/lib/index';
