@@ -1,0 +1,29 @@
+{
+  "name": "adevinta",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "sui-bundler build -C",
+    "start": "sui-bundler dev",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "eslintConfig": {
+    "extends": [
+      "./node_modules/@s-ui/lint/eslintrc.js"
+    ]
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@s-ui/bundler": "5"
+  },
+  "dependencies": {
+    "@s-ui/component-peer-dependencies": "1",
+    "@s-ui/react-atom-progress-bar": "^1.2.0",
+    "@s-ui/react-molecule-button-group": "^1.5.0",
+    "@schibstedspain/sui-atom-badge": "^1.5.0",
+    "@schibstedspain/sui-atom-button": "^1.23.0"
+  }
+}
