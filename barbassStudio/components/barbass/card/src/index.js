@@ -1,30 +1,28 @@
 import React from 'react'
-// import PropTypes from 'prop-types'
+import PropTypes from 'prop-types'
 import AtomCard from '@s-ui/react-atom-card'
 import AtomImage from '@s-ui/react-atom-image'
 
-function BarbasCard() {
-  const srcImageCar = 'http://images.com/my_image.jpg'
-  const urlTarget = 'https://www.coches.net/'
-
-  const CarImage = () => <AtomImage src={srcImageCar} alt="" />
-  const CarInfo = () => (
-    <div>
-      <h2>My Title</h2>
-      <p>My Description</p>
+function BarbasCard({image, title, description, actors, externalUrl}) {
+  const FilmImage = () => (
+    <AtomImage src={image} alt="" className="sktest-BarbasCard-image" />
+  )
+  const FilmContent = () => (
+    <div className="sktest-BarbasCard-content">
+      <h2>{title}</h2>
+      <p>{description}</p>
+      <h4>List of Actors</h4>
+      <ul>{actors && actors.map(actor => <li>{actor}</li>)}</ul>
     </div>
   )
 
   return (
-    <div className="sui-BarbasCard">
-      <AtomCard
-        media={CarImage}
-        content={CarInfo}
-        href={urlTarget}
-        vertical
-        highlight
-      />
-    </div>
+    <AtomCard
+      media={FilmImage}
+      content={FilmContent}
+      href={externalUrl}
+      vertical
+    />
   )
 }
 
@@ -32,7 +30,13 @@ BarbasCard.displayName = 'BarbasCard'
 
 // Remove these comments if you need
 // BarbasCard.contextTypes = {i18n: PropTypes.object}
-// BarbasCard.propTypes = {}
+BarbasCard.propTypes = {
+  image: PropTypes.string,
+  title: PropTypes.string,
+  description: PropTypes.string,
+  actors: PropTypes.array,
+  externalUrl: PropTypes.string
+}
 // BarbasCard.defaultProps = {}
 
 export default BarbasCard
