@@ -1,5 +1,5 @@
 import React from 'react'
-// import PropTypes from 'prop-types'
+//  import PropTypes from 'prop-types'
 import AtomCard from '@s-ui/react-atom-card'
 import AtomImage from '@s-ui/react-atom-image'
 
