@@ -1,5 +1,5 @@
 import React, {useReducer} from 'react'
-// import PropTypes from 'prop-types'
+//  import PropTypes from 'prop-types'
 import AtomProgressBar from '@s-ui/react-atom-progress-bar'
 import MoleculeButtonGroup from '@s-ui/react-molecule-button-group'
 import AtomButton from '@schibstedspain/sui-atom-button'
