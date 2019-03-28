@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file.
 
+<a name="1.4.0"></a>
+# 1.4.0 (2019-03-28)
+
+
+### Bug Fixes
+
+* functions removed ([8badc11](https://github.com/lexbarba/adevinta/commit/8badc11))
+
+
+
 <a name="1.3.0"></a>
 # 1.3.0 (2019-03-28)
 
