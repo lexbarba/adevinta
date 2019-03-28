@@ -1,25 +1,17 @@
-// Color
-
-$light-grey: #BBBBBB;
-$dark-grey: #606060;
-$white: #F7F7F7;
-$light-blue:#CBE6F0;
-$dark-blue: #7699C5;
-
 @import '~@schibstedspain/sui-theme/lib/index';
 @import '~@s-ui/react-atom-card/lib/index';
 
-.sui-AtomCard {
+.sktest-BarbasCard {
   display: flex;
   justify-content: center;
-  border: 0.05rem dotted $dark-grey;
+  border: 0.05rem dotted $c-gray-dark;
   border-radius: 0.5rem;
   width: 20rem;
-  background-color: $white;
-  color: $dark-grey
-}
+  background-color: $c-white;
+  color: $c-gray-dark;
+  text-decoration: none;
 
-
-.sui-AtomCard:hover {
-  box-shadow: 0.3rem 0.3rem $dark-grey
+  &:hover {
+    box-shadow: 0.3rem 0.3rem $c-gray-dark;
+  }
 }

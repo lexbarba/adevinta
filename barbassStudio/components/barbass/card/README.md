@@ -7,14 +7,14 @@
 ## Installation
 
 ```sh
-$ npm install @barbassStudio/sui-barbass-card --save
+$ npm install @sktest-barbass-card --save
 ```
 
 ## Usage
 
 ### Basic usage
 ```js
-import BarbasCard from '@barbassStudio/sui-barbass-card'
+import BarbasCard from '@sktest-barbass-card'
 
 return (<BarbasCard />)
 ```

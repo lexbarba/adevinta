@@ -3,26 +3,21 @@ import PropTypes from 'prop-types'
 import AtomCard from '@s-ui/react-atom-card'
 import AtomImage from '@s-ui/react-atom-image'
 
-function BarbasCard({image, title, description, actors, externalUrl}) {
+function BarbasCard({image, title, year, id}) {
   const FilmImage = () => (
     <AtomImage src={image} alt="" className="sktest-BarbasCard-image" />
   )
   const FilmContent = () => (
     <div className="sktest-BarbasCard-content">
       <h2>{title}</h2>
-      <p>{description}</p>
-      <h4>List of Actors</h4>
-      <ul>{actors && actors.map(actor => <li>{actor}</li>)}</ul>
+      <p>Year: {year}</p>
     </div>
   )
 
   return (
-    <AtomCard
-      media={FilmImage}
-      content={FilmContent}
-      href={externalUrl}
-      vertical
-    />
+    <a href="#" key={id} className="sktest-BarbasCard">
+      <AtomCard media={FilmImage} content={FilmContent} vertical />
+    </a>
   )
 }
 
@@ -33,9 +28,8 @@ BarbasCard.displayName = 'BarbasCard'
 BarbasCard.propTypes = {
   image: PropTypes.string,
   title: PropTypes.string,
-  description: PropTypes.string,
-  actors: PropTypes.array,
-  externalUrl: PropTypes.string
+  year: PropTypes.string,
+  id: PropTypes.string
 }
 // BarbasCard.defaultProps = {}
 
