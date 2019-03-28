@@ -2,6 +2,21 @@
 
 All notable changes to this project will be documented in this file.
 
+<a name="3.0.0"></a>
+# 3.0.0 (2019-03-28)
+
+
+### Features
+
+* props updated: actors and description removed. year and id added. ([a3bea7f](https://github.com/lexbarba/adevinta/commit/a3bea7f))
+
+
+### BREAKING CHANGES
+
+* Props updated. Update asasp.
+
+
+
 <a name="2.2.0"></a>
 # 2.2.0 (2019-03-26)
 
