@@ -7,14 +7,14 @@
 ## Installation
 
 ```sh
-$ npm install @barbassStudio/sui-barbass-search-bar --save
+$ npm install sktest-barbass-search-bar --save
 ```
 
 ## Usage
 
 ### Basic usage
 ```js
-import BarbasSearchBar from '@barbassStudio/sui-barbass-search-bar'
+import BarbasSearchBar from 'sktest-barbass-search-bar'
 
 return (<BarbasSearchBar />)
 ```
