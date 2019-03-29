@@ -1,11 +1,10 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import AtomCard from '@s-ui/react-atom-card'
-import AtomImage from '@s-ui/react-atom-image'
 
 function BarbasCard({image, title, year, id}) {
   const FilmImage = () => (
-    <AtomImage src={image} alt="" className="sktest-BarbasCard-image" />
+    <img src={image} alt="" className="sktest-BarbasCard-image" />
   )
   const FilmContent = () => (
     <div className="sktest-BarbasCard-content">
