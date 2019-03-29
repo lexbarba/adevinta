@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file.
 
+<a name="3.1.0"></a>
+# 3.1.0 (2019-03-29)
+
+
+### Features
+
+* atomImage removed due to no control pover image size. ([da031d4](https://github.com/lexbarba/adevinta/commit/da031d4))
+
+
+
 <a name="3.0.0"></a>
 # 3.0.0 (2019-03-28)
 
