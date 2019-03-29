@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file.
 
+<a name="3.3.0"></a>
+# 3.3.0 (2019-03-29)
+
+
+### Bug Fixes
+
+* margin-top image accidentally removed ([c311b21](https://github.com/lexbarba/adevinta/commit/c311b21))
+
+
+
 <a name="3.2.0"></a>
 # 3.2.0 (2019-03-29)
 
