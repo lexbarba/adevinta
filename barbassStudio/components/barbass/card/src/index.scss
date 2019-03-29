@@ -6,10 +6,14 @@
   justify-content: center;
   border: 0.05rem dotted $c-gray-dark;
   border-radius: 0.5rem;
-  width: 20rem;
   background-color: $c-white;
   color: $c-gray-dark;
   text-decoration: none;
+
+  &-image{
+      max-width: 95%;
+      max-height: 95%;
+  }
 
   &:hover {
     box-shadow: 0.3rem 0.3rem $c-gray-dark;
