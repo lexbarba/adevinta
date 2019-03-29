@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file.
 
+<a name="3.2.0"></a>
+# 3.2.0 (2019-03-29)
+
+
+### Features
+
+* width card removed and auto img size added ([4c4742c](https://github.com/lexbarba/adevinta/commit/4c4742c))
+
+
+
 <a name="3.1.0"></a>
 # 3.1.0 (2019-03-29)
 
